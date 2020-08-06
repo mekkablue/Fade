@@ -1,15 +1,16 @@
 # Fade
-Glyphs.app plug-in for removing parts of glyphs beneath or beyond a certain coordinate
+
+Glyphs.app plug-in for removing parts of glyphs beneath or beyond a certain coordinate:
 
 ![Fade](Fade.png)
 
-*After installation, Magic Remove will appear as button in the app palette on the right side (Cmd-Opt-P).*
+After installation, *Fade* will appear in the *Filter* menu.
 
 ### Usage
 
-**Multiple-master deletion:** Select any number of nodes, anchors or components in Edit view and press *Magic Remove.* The selected nodes will be deleted on all compatible masters,
-
-**Remove multiple nodes and keep shape:** The same behaviour you have when you select and delete an individual node, just for many nodes at once. Works for single master and multiple masters.
+* `x>250` will cut away everything right of x=250
+* `x<200, y>300` will cut away everything left of x=200 and above y=300
+* `y<100, y>700` will leave only shapes between y=100 and y=700
 
 ### Installation
 
